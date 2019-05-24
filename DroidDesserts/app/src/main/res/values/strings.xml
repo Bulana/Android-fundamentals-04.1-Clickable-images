@@ -9,4 +9,9 @@
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
     <string name="change_dessert">Change dessert</string>
+    <string name="name_label_tex">Name</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="enter_address_hint">4 Waterview Cl, Century City, Cape Town, 7441</string>
+    <string name="enter_note_hint">Zapper is a mobile payment, customer loyalty and rewards platform.</string>
+    <string name="enter_phone_hint">5555-5555</string>
 </resources>
