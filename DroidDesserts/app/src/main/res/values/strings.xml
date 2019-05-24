@@ -14,4 +14,8 @@
     <string name="enter_address_hint">4 Waterview Cl, Century City, Cape Town, 7441</string>
     <string name="enter_note_hint">Zapper is a mobile payment, customer loyalty and rewards platform.</string>
     <string name="enter_phone_hint">5555-5555</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="pick_up">Pick up</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
 </resources>
