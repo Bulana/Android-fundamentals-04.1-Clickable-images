@@ -39,6 +39,7 @@ public class OrderActivity extends AppCompatActivity {
                     displayToast(getString(R.string.pick_up));
                 break;
             default:
+                    displayToast(getString(R.string.next_day_ground_delivery));
                 break;
         }
 
