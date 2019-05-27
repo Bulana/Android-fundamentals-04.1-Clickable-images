@@ -97,32 +97,31 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/address_label"
         app:layout_constraintStart_toEndOf="@+id/address_label"
         app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
     <Spinner
         android:id="@+id/label_spinner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/address_text"
         app:layout_constraintStart_toEndOf="@+id/phone_text"
-        ></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/address_text" />
 
     <EditText
         android:id="@+id/phone_text"
         android:layout_width="134dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
         android:hint="@string/enter_phone_hint"
-        android:inputType="textMultiLine"
+        android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@+id/phone_label"
-        app:layout_constraintStart_toEndOf="@id/phone_label"
-        app:layout_constraintTop_toBottomOf="@+id/address_text" />
+        app:layout_constraintStart_toEndOf="@+id/phone_label" />
 
     <EditText
         android:id="@+id/note_text"
@@ -158,15 +157,15 @@
             android:id="@+id/nextday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/next_day_ground_delivery"
+            android:checked="true"
             android:onClick="onRadioButtonClicked"
-            android:checked="true" />
+            android:text="@string/next_day_ground_delivery" />
 
         <RadioButton
             android:id="@+id/pickup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
-            android:text="@string/pick_up"/>
+            android:text="@string/pick_up" />
     </RadioGroup>
 </android.support.constraint.ConstraintLayout>

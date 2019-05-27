@@ -66,4 +66,15 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
+
+    public void onItemSelected(AdapterView<?> adapterView, View view, int
+            i, long l) {
+        String spinnerLabel = adapterView.getItemAtPosition(i).toString();
+        displayToast(spinnerLabel);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
 }
